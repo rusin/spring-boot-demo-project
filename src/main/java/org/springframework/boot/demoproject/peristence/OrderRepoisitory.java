@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.RepositoryDefinition;
 import org.springframework.data.repository.query.Param;
 
-@RepositoryDefinition(domainClass=Order.class, idClass=Long.class)
+@RepositoryDefinition(domainClass = Order.class, idClass = Long.class)
 public interface OrderRepoisitory {
 
 	void save(Order entity);
@@ -16,5 +16,5 @@ public interface OrderRepoisitory {
 	List<Order> findAll();
 	
 	@Query("SELECT o FROM Order o WHERE o.createdOn BETWEEN :startDate AND :endDate")
-	List<Order> findBetweenDate(@Param("startDate")LocalDateTime startDate, @Param("endDate")LocalDateTime endDate);
+	List<Order> findBetweenDate(@Param("startDate") LocalDateTime startDate, @Param("endDate") LocalDateTime endDate);
 }

@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/orders")
-@Api(value="Order Product API")
+@Api(value = "Order Product API")
 public class OrderApi {
 	
 	@Autowired

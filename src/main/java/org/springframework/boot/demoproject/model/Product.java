@@ -18,7 +18,7 @@ public class Product {
 
 	@Id
 	@NotNull(message = "SKU may not be empty!")
-	@ApiModelProperty(value="The stock keeping unit", required = true)
+	@ApiModelProperty(value = "The stock keeping unit", required = true)
 	private String sku;
 	
 	private String name;

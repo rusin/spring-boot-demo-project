@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/products")
-@Api(value="Product API")
+@Api(value = "Product API")
 public class ProductApi {
 
 	private static Logger LOG = LoggerFactory.getLogger(ProductApi.class);
