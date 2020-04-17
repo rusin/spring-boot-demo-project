@@ -4,7 +4,7 @@
 The following programs have to be installed on local machine before and run this this project:
 
 * Git in version 2.19 or higher. Make sure that git command in available, run git --version to verify it. 
-* Java JRE in version 8 or higher. Make sure that Java is installed and availble to build the appliocation. Use java -version to check wheather Java is available. Make sure that JAVA_HOME variable is set as an environment variable.
+* Java JRE in version 8 or higher. Make sure that Java is installed and availble to build the appliocation. Use java -version to check wheather Java is available.
 # How th run and test the demo application
 ### Clone spring-demo application from git repository
 > git clone https://github.com/rusin/spring-boot-demo-project.git
