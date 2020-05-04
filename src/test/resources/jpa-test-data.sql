@@ -1,0 +1,3 @@
+INSERT INTO Product(sku, name, price, created_on, is_deleted) VALUES ('12-201957', 'New Product name', 3.99, '2020-05-01 12:15:57', 0);
+INSERT INTO Product(sku, name, price, created_on, is_deleted) VALUES ('15-032179', 'Change product', 5.77, '2020-05-01 12:15:57', 0);
+INSERT INTO Product(sku, name, price, created_on, is_deleted) VALUES ('12-201957X', 'Deleted product name', 7.87, '2020-05-01 12:15:57', 1);
